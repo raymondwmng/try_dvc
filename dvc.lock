@@ -25,10 +25,11 @@ stages:
     params:
       params.yaml:
         experiment_2.names:
-        - screaming_cat
-        - sobbing_dog
+        - red_apple
+        - brown_kiwi
+        - orange_orange
     outs:
     - path: data/output_2.log
       hash: md5
-      md5: 809dd23b6b758d1c0f97a405a608bc04
-      size: 77
+      md5: 4b1b4647555fce3c4e82188c39648bc2
+      size: 86
