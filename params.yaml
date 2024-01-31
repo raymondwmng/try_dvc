@@ -13,3 +13,9 @@ train:
 
 experiment:
   name: shining_moonlight
+
+experiment_2:
+  names:
+  - sleeping_lion
+  - roaring_deer
+  - rambling_sheep

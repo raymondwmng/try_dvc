@@ -7,3 +7,11 @@ stages:
     - experiment.name
     outs:
     - data/output.log
+  experiment_2:
+    cmd: python src/experiment_2.py
+    deps:
+    - src/experiment_2.py
+    params:
+    - experiment_2.names
+    outs:
+    - data/output_2.log

@@ -15,3 +15,21 @@ stages:
       hash: md5
       md5: 9d753f80a6267d0fd8430a5b5ad2a5ba
       size: 69
+  experiment_2:
+    cmd: python src/experiment_2.py
+    deps:
+    - path: src/experiment_2.py
+      hash: md5
+      md5: 8603c6b05b5acf988dc95d33b3cacbb1
+      size: 560
+    params:
+      params.yaml:
+        experiment_2.names:
+        - sleeping_lion
+        - roaring_deer
+        - rambling_sheep
+    outs:
+    - path: data/output_2.log
+      hash: md5
+      md5: 2466d1acce09ebcf350bfc5340fc90c6
+      size: 93
