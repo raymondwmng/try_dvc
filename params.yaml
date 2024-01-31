@@ -16,6 +16,5 @@ experiment:
 
 experiment_2:
   names:
-  - sleeping_lion
-  - roaring_deer
-  - rambling_sheep
+  - screaming_cat
+  - sobbing_dog
