@@ -1,0 +1,4 @@
+[core]
+    remote = default
+['remote "default"']
+    url = s3://koldev-ds-medical-insight/tmp_try_dvc
