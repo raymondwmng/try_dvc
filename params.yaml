@@ -12,4 +12,4 @@ train:
   min_split: 0.01
 
 experiment:
-  name: cascade_tiger
+  name: shining_moonlight

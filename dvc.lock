@@ -1,0 +1,17 @@
+schema: '2.0'
+stages:
+  experiment:
+    cmd: python src/experiment.py
+    deps:
+    - path: src/experiment.py
+      hash: md5
+      md5: 8aaca40cb879f45665501f3a301fc4bf
+      size: 526
+    params:
+      params.yaml:
+        experiment.name: shining_moonlight
+    outs:
+    - path: data/output.log
+      hash: md5
+      md5: 9d753f80a6267d0fd8430a5b5ad2a5ba
+      size: 69
