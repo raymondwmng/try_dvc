@@ -11,3 +11,5 @@ train:
   n_est: 50
   min_split: 0.01
 
+experiment:
+  name: cascade_tiger

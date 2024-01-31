@@ -1,11 +1,9 @@
 stages:
-  prepare:
-    cmd: python src/prepare.py data/data.xml
+  experiment:
+    cmd: python src/experiment.py
     deps:
-    - data/data.xml
-    - src/prepare.py
+    - src/experiment.py
     params:
-    - prepare.seed
-    - prepare.split
+    - experiment.name
     outs:
-    - data/prepared
+    - data/output.log
